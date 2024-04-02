@@ -1,0 +1,8 @@
+img {
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px grey;
+}
+
+button {
+    box-shadow: 2px 4px 3px rgb(59, 59, 59);
+}

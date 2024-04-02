@@ -1,0 +1,50 @@
+<div class="row" style="padding-top: 2rem">
+  <div class="col-2" style="padding-left: 2rem">
+    <img [src]="ItemLogo" height="150px" width="150px" /><br /><br />
+    <p style="margin-left: 1.8rem">Shampoo</p>
+    <button class="btn btn-secondary" (click)="updateNotify0('Shampoo - Revive & Shine', 'Product Rating: 400 (views)', 'Price: ₹ 1,200 ')">
+      Select an Item
+    </button>
+  </div>
+  <div class="col-2" style="padding-left: 2rem">
+    <img [src]="ItemLogo1" height="150px" width="150px" /><br /><br />
+    <p style="margin-left: 2rem">Milk Powder</p>
+    <button class="btn btn-secondary" (click)="updateNotify1('Milk Powder - Nourish & Fortify', 'Product Rating: 300 (views)', 'Price: ₹ 650 ')">
+      Select an Item
+    </button>
+  </div>
+  <div class="col-2" style="padding-left: 2rem">
+    <img [src]="ItemLogo2" height="150px" width="150px" /><br /><br />
+    <p style="margin-left: 2rem">Gummies</p>
+    <button class="btn btn-secondary" (click)="updateNotify2('Gummies - Tasty Delights', 'Product Rating: 3000 (views)', 'Price: ₹ 2,099 ')">
+      Select an Item
+    </button>
+  </div>
+  <div class="col-2" style="padding-left: 2rem">
+    <img [src]="ItemLogo3" height="150px" width="150px" /><br /><br />
+    <p style="margin-left: 3rem">Mask</p>
+    <button class="btn btn-secondary" (click)="updateNotify3('Black Mask - Radiant Glow', 'Product Rating: 2400 (views)', 'Price: ₹ 500 ')">
+      Select an Item
+    </button>
+  </div>
+  <div class="col-2" style="padding-left: 2rem">
+    <img [src]="ItemLogo4" height="150px" width="150px" /><br /><br />
+    <p style="margin-left: 2rem">Eco Bottle</p>
+    <button class="btn btn-secondary" (click)="updateNotify4('Eco Bottle - Earths Sip', 'Product Rating: 1700 (views)', 'Price: ₹ 2,200 ')">
+      Select an Item
+    </button>
+  </div>
+  <div class="col-2" style="padding-left: 2rem">
+    <img [src]="ItemLogo5" height="150px" width="150px" /><br /><br />
+    <p style="margin-left: 1rem">Cocoa Powder</p>
+    <button class="btn btn-secondary" (click)="updateNotify5('Cocoa Powder -Pure Indulgence', 'Product Rating: 300 (views)', 'Price: ₹ 900 ')">
+      Select an Item
+    </button>
+  </div>
+</div>
+
+<hr />
+
+<div class="col-6 border border-secondary m-3">
+  <app-item-details [selectedProduct]="selectedProduct"></app-item-details>
+</div>
